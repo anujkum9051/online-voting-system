@@ -2,7 +2,7 @@ const userId = localStorage.getItem("userId");
 
 async function loadCandidates(){
 
-const res = await fetch("http://localhost:5000/api/candidates");
+const res = await fetch("https://online-voting-system-api.onrender.com");
 
 const candidates = await res.json();
 
@@ -31,7 +31,7 @@ list.appendChild(div);
 
 async function vote(candidateId){
 
-const res = await fetch("http://localhost:5000/api/vote/vote", {
+const res = await fetch("https://online-voting-system-api.onrender.com", {
 
 method: "POST",
 
