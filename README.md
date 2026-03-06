@@ -1,6 +1,6 @@
-# Online Voting System
+# 🗳 Online Voting System
 
-A simple full stack Online Voting System built using:
+A simple **Full Stack Online Voting System** built using:
 
 - HTML
 - CSS
@@ -9,7 +9,19 @@ A simple full stack Online Voting System built using:
 - Express.js
 - MongoDB
 
-## Features
+---
+
+## 🚀 Live Demo
+
+Frontend (Website):  
+https://online-voting-system-virid.vercel.app
+
+Backend API:  
+https://online-voting-system-api.onrender.com
+
+---
+
+## 📌 Features
 
 - User Registration
 - User Login
@@ -17,29 +29,26 @@ A simple full stack Online Voting System built using:
 - View Election Results
 - Admin Panel to Add Candidates
 
-## Project Structure
+---
 
-backend/ - Node.js API  
-frontend/ - HTML CSS JS pages
+## 🛠 Tech Stack
 
-## How to Run
+Frontend:
+- HTML
+- CSS
+- JavaScript
 
-1. Install dependencies
+Backend:
+- Node.js
+- Express.js
 
-npm install
+Database:
+- MongoDB (Mongoose)
 
-2. Start server
+Deployment:
+- Frontend → Vercel
+- Backend → Render
 
-node server.js
+---
 
-3. Open frontend using Live Server
-
-## Admin Login
-
-Username: anuj  
-Password: anuj1234
-
-## Author
-
-Anuj Kumar  
-GitHub: https://github.com/anujkum9051
+## 📂 Project Structure
