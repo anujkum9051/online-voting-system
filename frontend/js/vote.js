@@ -2,7 +2,7 @@ const userId = localStorage.getItem("userId");
 
 async function loadCandidates(){
 
-const res = await fetch("https://online-voting-system-api.onrender.com");
+const res = await fetch("https://online-voting-system-api.onrender.com/api/candidates");
 
 const candidates = await res.json();
 
