@@ -31,7 +31,7 @@ list.appendChild(div);
 
 async function vote(candidateId){
 
-const res = await fetch("https://online-voting-system-api.onrender.com", {
+const res = await fetch("https://online-voting-system-api.onrender.com/api/vote", {
 
 method: "POST",
 

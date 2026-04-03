@@ -25,7 +25,7 @@ e.preventDefault();
 const name = document.getElementById("name").value;
 const party = document.getElementById("party").value;
 
-const res = await fetch("http://localhost:5000/api/candidates/add", {
+const res = await fetch("https://online-voting-system-api.onrender.com/api/candidates/add", {
 
 method: "POST",
 

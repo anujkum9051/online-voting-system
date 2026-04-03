@@ -1,6 +1,6 @@
 async function loadResults(){
 
-const res = await fetch("http://localhost:5000/api/candidates/results");
+const res = await fetch("https://online-voting-system-api.onrender.com/api/candidates/results");
 
 const data = await res.json();
 
